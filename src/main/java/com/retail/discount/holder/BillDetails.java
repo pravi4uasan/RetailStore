@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class BillDetails {
 	
-	private int userId;
+	private UserDetails userDetails;
 	private List<ItemDetails> itemDetailsList;
 	private Date purchaseDate;
 	

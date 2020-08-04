@@ -7,10 +7,10 @@ import lombok.Data;
 @Data
 public class ItemDetails {
 	
-	private String itemName;
-	private String itemCatogery;
-	private int itemQauntity;
-	private Double itemPrice;
+	private String name;
+	private String category;
+	private int qauntity;
+	private Double price;
 	
 
 }

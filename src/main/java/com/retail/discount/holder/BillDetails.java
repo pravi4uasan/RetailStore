@@ -10,7 +10,7 @@ public class BillDetails {
 	
 	private int userId;
 	private List<ItemDetails> itemDetailsList;
-	private Date pusrchaseDate;
+	private Date purchaseDate;
 	
 
 }

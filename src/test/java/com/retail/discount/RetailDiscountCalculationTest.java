@@ -139,7 +139,7 @@ public class RetailDiscountCalculationTest {
 		Date date6=formatter6.parse("31-Dec-1998 23:37:50");  
 		userDetails.setUserMembershipDate(date6);
 		
-		itemDetails.setName("sugar");
+		itemDetails.setName("meat");
 		itemDetails.setCategory("nongrocerry");
 		itemDetails.setQauntity(5);
 		itemDetails.setPrice(100.00);

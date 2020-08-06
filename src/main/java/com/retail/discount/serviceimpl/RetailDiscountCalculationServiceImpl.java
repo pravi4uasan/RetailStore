@@ -37,23 +37,25 @@ public class RetailDiscountCalculationServiceImpl implements RetailDiscountCalcu
 		double total = 0.0;
 		
 		for (ItemDetails itemDetails : items) {
-			
-			if(!itemDetails.getCategory().equalsIgnoreCase("grocerry"))
-			{
-				if("employee".equalsIgnoreCase(userType)) {
-					discount = 0.30;
-				} else if("affiliate".equalsIgnoreCase(userType)) {
-					discount = 0.10;
-				} else if("customer".equalsIgnoreCase(userType) && yearsSinceMembership >= 2) {
-					discount = 0.05;
+			for(int i=0; i< itemDetails.getQauntity(); i++) {
+				
+				if(!itemDetails.getCategory().equalsIgnoreCase("grocerry"))
+				{
+					if("employee".equalsIgnoreCase(userType)) {
+						discount = 0.30;
+					} else if("affiliate".equalsIgnoreCase(userType)) {
+						discount = 0.10;
+					} else if("customer".equalsIgnoreCase(userType) && yearsSinceMembership >= 2) {
+						discount = 0.05;
+					}
+				} else {
+					discount = 0.0;
 				}
-			} else {
-				discount = 0.0;
-			}
 
-			double price = itemDetails.getPrice();
-			total = total + ((1-discount) * (price));
-			
+				double price = itemDetails.getPrice();
+				total = total + ((1-discount) * (price));
+
+			}
 		}
 		
 		double billTotal = (total) - ((total % 100) * 5);

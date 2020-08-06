@@ -30,9 +30,14 @@ public class RetailDiscountCalculationServiceImpl implements RetailDiscountCalcu
 		
 		double discount = 0.0;
 		LocalDate membershipDate = convertToLocalDateViaInstant(user.getUserMembershipDate());
+		
 		LocalDate currentDate = LocalDate.now();
-		Period period = Period.between(currentDate, membershipDate);
+		
+		//Period period = Period.between(currentDate, membershipDate);
+		Period period = Period.between(membershipDate, currentDate);
+		
 		int yearsSinceMembership = period.getYears();
+		System.out.println("yearsSinceMembership>>>>>"+yearsSinceMembership);
 		
 		double total = 0.0;
 		

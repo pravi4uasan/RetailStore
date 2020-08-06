@@ -10,7 +10,7 @@ Discount Criteria:
 5. The	percentage	based	discounts (1 , 2, 3 points mentioned above)	do	not	apply	on	groceries.
 6. A	user	can	get	only	one	of	the	percentage	based	discounts	on	a	bill.
 
-Step to set up Project:-
+Step to set up Project:
 =======================
 
 Clone or download project from https://github.com/pravi4uasan/RetailStore 

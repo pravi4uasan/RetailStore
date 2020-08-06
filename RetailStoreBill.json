@@ -1,0 +1,325 @@
+Case 1
+employee & grocerry
+
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "employee",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "salt",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+
+Response :-
+{
+    "totalBillAmount": 190.0
+}
+
+Case 2 
+ employee & nongrocerry
+ 
+ {
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "employee",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "milk",
+                "category": "nongrocerry",
+                "qauntity": 2,
+                "price": 100
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+
+Response :-
+{
+    "totalBillAmount": 135.0
+}
+
+Case 3
+ employee & grocerry & nongrocerry
+ 
+ {
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "employee",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "salt",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            },
+            {
+                "name": "milk",
+                "category": "nongrocerry",
+                "qauntity": 2,
+                "price": 15
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+
+Response :-
+
+{
+    "totalBillAmount": 211.0
+}
+
+Case 4
+affiliate & grocerry
+
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "affiliate",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "salt",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response:-
+{
+    "totalBillAmount": 190.0
+}
+
+Case 5
+affiliate & nongrocerry
+
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "affiliate",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "curd",
+                "category": "nongrocerry",
+                "qauntity": 2,
+                "price": 25
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response:-
+{
+    "totalBillAmount": 45.0
+}
+
+Case 6
+affiliate &grocerry& nongrocerry
+
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "affiliate",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "rice",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            },
+            {
+                "name": "milk",
+                "category": "nongrocerry",
+                "qauntity": 2,
+                "price": 150
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response:-
+{
+    "totalBillAmount": 450.0
+}
+
+Case 7
+customer & grocerry
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "customer",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "rice",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response:-
+
+{
+    "totalBillAmount": 190.0
+}
+
+Case 8
+customer & grocerry & above2yr
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "customer",
+            "userMembershipDate": "2020-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "rice",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response:-
+
+{
+    "totalBillAmount": 190.0
+}
+
+Case 9
+customer & nongrocerry & above2yr
+
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "customer",
+            "userMembershipDate": "2017-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "soda",
+                "category": "nongrocerry",
+                "qauntity": 2,
+                "price": 100
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response:-
+{
+    "totalBillAmount": 185.0
+}
+
+Case 10
+customer & nongrocerry & grocerry & above2yr
+
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "customer",
+            "userMembershipDate": "2018-08-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "Flour",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            },
+            {
+                "name": "milk",
+                "category": "nongrocerry",
+                "qauntity": 2,
+                "price": 50
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response:-
+
+{
+    "totalBillAmount": 285.0
+}
+
+Case 11
+customer & nongrocerry & grocerry & bellow2yr
+
+{
+    "billDetails": {
+        "userDetails": {
+            "userId": 1,
+            "userName": "Praveen",
+            "userType": "customer",
+            "userMembershipDate": "2018-09-06 11:42:01"
+        },
+        "itemDetailsList": [
+            {
+                "name": "Flour",
+                "category": "grocerry",
+                "qauntity": 2,
+                "price": 100
+            },
+            {
+                "name": "milk",
+                "category": "nongrocerry",
+                "qauntity": 2,
+                "price": 60
+            }
+        ],
+        "purchaseDate": "2020-08-06 11:42:01"
+    }
+}
+Response
+{
+    "totalBillAmount": 305.0
+}

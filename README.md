@@ -10,12 +10,13 @@ API is used to calculate total bill amount for each purchase by applying below g
 
 Step to set up Project:-
 
-Clone or download project from https://github.com/pravi4uasan/RetailStore
+Clone or download project from https://github.com/pravi4uasan/RetailStore 
+
 import as maven project
 do maven clean
 Start application by using RetailDiscountCalculation.java
 Test application in postman with this URL http://localhost:8080/retailstore/billamount
-Sample json request file is available on this path
+Sample json request file is available on this path https://github.com/pravi4uasan/RetailStore/blob/master/RetailStoreBill.json
 
 To Run Junit
 Right click on RetailDiscountCalculationTest.java and run Junit Test
@@ -26,5 +27,5 @@ Right click on project and goto Run configaration and select maven
 Goals- clean install
 This will run all test cases and coverage with jacoco and report will be available at this path
 /discount/target/site/jacoco/index.html
-Screen shot of code coverage is avaialble at 
+Screen shot of code coverage is avaialble at https://github.com/pravi4uasan/RetailStore/blob/master/CodeCoverage.docx
 

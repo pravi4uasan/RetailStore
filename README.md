@@ -29,6 +29,6 @@ This will run all test cases and coverage with jacoco and report will be availab
 /discount/target/site/jacoco/index.html
 Screen shot of code coverage is avaialble at https://github.com/pravi4uasan/RetailStore/blob/master/CodeCoverage.docx
 
-UML diagram of application is avaialable at https://github.com/pravi4uasan/RetailStore/blob/master/UMLDiagram.ucls
-Please open this in eclipse
+UML diagram of application is avaialable at https://github.com/pravi4uasan/RetailStore/blob/master/UMLDiagram.jpg
+
 

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.retail.discount.RetailDiscountCalculation" project="discount" 
+    file="/discount/src/main/java/com/retail/discount/RetailDiscountCalculation.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="248" x="347" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.retail.discount.holder.ItemDetails" project="discount" 
+    file="/discount/src/main/java/com/retail/discount/holder/ItemDetails.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="416" width="206" x="512" y="666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.retail.discount.controller.RetailDiscountCalculationController" 
+    project="discount" 
+    file="/discount/src/main/java/com/retail/discount/controller/RetailDiscountCalculationController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="628" x="1610" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.retail.discount.holder.BillDetails" project="discount" 
+    file="/discount/src/main/java/com/retail/discount/holder/BillDetails.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="316" width="314" x="635" y="310"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="com.retail.discount.holder.UserTypes" project="discount" 
+    file="/discount/src/main/java/com/retail/discount/holder/UserTypes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="198" x="996" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="6" language="java" name="com.retail.discount.request.RetailDiscountCalculationRequest" project="discount" 
+    file="/discount/src/main/java/com/retail/discount/request/RetailDiscountCalculationRequest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="216" width="321" x="635" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.retail.discount.holder.UserDetails" project="discount" 
+    file="/discount/src/main/java/com/retail/discount/holder/UserDetails.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="416" width="278" x="758" y="666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.retail.discount.response.RetailDiscountCalculationResponse" project="discount" 
+    file="/discount/src/main/java/com/retail/discount/response/RetailDiscountCalculationResponse.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="236" width="336" x="1234" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="com.retail.discount.service.RetailDiscountCalculationService" 
+    project="discount" file="/discount/src/main/java/com/retail/discount/service/RetailDiscountCalculationService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="692" x="1944" y="310"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="com.retail.discount.serviceimpl.RetailDiscountCalculationServiceImpl" 
+    project="discount" 
+    file="/discount/src/main/java/com/retail/discount/serviceimpl/RetailDiscountCalculationServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="692" x="2278" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="retailDiscountCalculationService"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="15" name="itemDetailsList"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="17">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="18">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="19" name="billDetails"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="22" name="userDetails"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

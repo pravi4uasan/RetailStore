@@ -24,7 +24,7 @@ public class RetailDiscountCalculationController {
 	public RetailDiscountCalculationResponse totalBillAmount(@RequestBody RetailDiscountCalculationRequest
 			retailDiscountCalculationRequest) {
 		
-		log.info(">>>>>>>>>>>>RetailDiscountCalculationController starting ");
+		log.info("AT RetailDiscountCalculationController starting ");
 				return retailDiscountCalculationService.calculateTotalBillAmount(retailDiscountCalculationRequest);
 		
 	}

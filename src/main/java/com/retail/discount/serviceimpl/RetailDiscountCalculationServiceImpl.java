@@ -8,6 +8,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.retail.discount.controller.RetailDiscountCalculationController;
 import com.retail.discount.holder.BillDetails;
 import com.retail.discount.holder.ItemDetails;
 import com.retail.discount.holder.UserDetails;
@@ -15,6 +16,8 @@ import com.retail.discount.request.RetailDiscountCalculationRequest;
 import com.retail.discount.response.RetailDiscountCalculationResponse;
 import com.retail.discount.service.RetailDiscountCalculationService;
 
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
 @Service
 public class RetailDiscountCalculationServiceImpl implements RetailDiscountCalculationService{
 
@@ -37,7 +40,7 @@ public class RetailDiscountCalculationServiceImpl implements RetailDiscountCalcu
 		Period period = Period.between(membershipDate, currentDate);
 		
 		int yearsSinceMembership = period.getYears();
-		System.out.println("yearsSinceMembership>>>>>"+yearsSinceMembership);
+		log.info("yearsSinceMembership>>>>>"+yearsSinceMembership);
 		
 		double total = 0.0;
 		

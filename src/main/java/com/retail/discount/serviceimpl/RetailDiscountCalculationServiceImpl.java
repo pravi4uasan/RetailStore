@@ -58,8 +58,7 @@ public class RetailDiscountCalculationServiceImpl implements RetailDiscountCalcu
 			}
 		}
 		
-		double billTotal = (total) - ((total % 100) * 5);
-		
+		double billTotal = (total) - (((int) (total / 100)) * 5);
 		RetailDiscountCalculationResponse retailDiscountCalculationResponse=new RetailDiscountCalculationResponse();
 		
 		
